@@ -10,7 +10,7 @@ import numpy as np
 
 init(autoreset=True)
 est = pytz.timezone('US/Eastern')
-major_companies = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'FB', 'TSLA', 'BRK-B', 'JPM', 'JNJ', 'V', 'WMT', 'PG', 'NVDA', 'DIS', 'MA', 'HD', 'UNH', 'VZ', 'PYPL', 'ADBE', 'NFLX', 'SPY']
+major_companies = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'FB', 'TSLA', 'BRK-B', 'JPM', 'JNJ', 'V', 'WMT', 'PG', 'NVDA', 'DIS', 'MA', 'HD', 'UNH', 'VZ', 'PYPL', 'ADBE', 'NFLX', 'SPY', 'VIX']
 
 def fetch_options_data(ticker):
     stock = yf.Ticker(ticker)
